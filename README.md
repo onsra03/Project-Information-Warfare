@@ -19,7 +19,7 @@ To perform this lab, you will need:
 ### Steps to Follow
 1. Clone the project repository:
    ```sh
-   git clone https://github.com/onsra03/Project-Information-Warfare
+   git clone https://github.com/onsra03/Project-Information-Warfare.git
    ```
 2. Build the Docker image and run the container:
 ```sh
