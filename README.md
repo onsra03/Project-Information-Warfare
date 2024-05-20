@@ -31,6 +31,8 @@ Open your browser and navigate to:
 ```
 http://localhost:5000
 ```
+![image](https://github.com/onsra03/Project-Information-Warfare/assets/85748567/ed47f847-3165-4303-b549-81a8cd9613d6)
+
 
 ## Guidance
 The project is guided by MSc. Trung, Thuan Nguyen
