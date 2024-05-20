@@ -39,7 +39,6 @@ The project is guided by MSc. Trung, Thuan Nguyen
 - Additional tools and libraries may be utilized to enhance functionality and security.
 
 ## Objectives
-- To develop a secure remote code execution platform.
 - To provide a user-friendly interface for code submission and execution.
 - To ensure robust security measures to prevent misuse and unauthorized access.
 
