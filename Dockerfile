@@ -1,7 +1,5 @@
 FROM python:3.11-slim-buster
 
-RUN echo "dead{okokok!!!_th1s_flAg_f0R_Y0U}" > /flag.txt
-
 WORKDIR /app
 
 COPY requirements.txt .
@@ -12,8 +10,8 @@ COPY src/ .
 
 RUN chmod 755 /app
 
-RUN groupadd -r onsra -g 433 && \
-    useradd -u 431 -r -g onsra -s /sbin/nologin -c "Docker image user" onsra
-USER onsra
+# RUN groupadd -r onsra -g 433 && \
+#     useradd -u 431 -r -g onsra -s /sbin/nologin -c "Docker image user" onsra
+# USER onsra
 
 CMD ["python", "app.py"]

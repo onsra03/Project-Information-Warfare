@@ -39,20 +39,6 @@ def load_user(user_id):
 def index():
     return render_template('index.html')
 
-# @app.route('/login', methods=['GET', 'POST'])
-# def login():
-#     if request.method == 'POST':
-#         username = request.form.get('username')
-#         password = request.form.get('password')
-#         if username == admin_user.id and password == admin_password:
-#             login_user(admin_user)
-#             access_token = create_access_token(identity={'username': username})
-#             response = redirect(url_for('index'))
-#             response.set_cookie('access_token_cookie', access_token, max_age=datetime.timedelta(days=1), httponly=False)
-#             session['access_token'] = access_token  # Add token to session without HttpOnly
-#             return response
-#         return 'Invalid credentials', 401
-#     return render_template('login.html')
 
 @app.route('/logout')
 @login_required
