@@ -23,7 +23,7 @@ To perform this lab, you will need:
    ```
 2. Build the Docker image and run the container:
 ```sh
-cd Project-Information-Warfare
+cd Project-Information-Warfare/
 chmod +x Project-Information-Warfare/build-docker.sh
 ./build-docker.sh
 ```
