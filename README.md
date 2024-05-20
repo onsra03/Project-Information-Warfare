@@ -1,7 +1,7 @@
 # Lab Remote Code Execute
 
 ## Project Overview
-This project focuses on the development and implementation of a remote code execution system. It is designed to allow users to execute code remotely in a controlled and secure environment. The primary languages used in this project are Python and HTML, ensuring a robust and user-friendly interface.
+This project focuses on the development and demonstration of a remote code execution (RCE) vulnerability. It illustrates how attackers can exploit this vulnerability to collect data from a target system. By simulating such attacks, the lab provides valuable insights into the mechanisms of RCE and the importance of securing systems against these threats.
 
 ## Member Group
 - **Pham Ho Anh Dung**
